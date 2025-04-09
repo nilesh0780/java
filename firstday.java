@@ -18,9 +18,9 @@ class firstday {
 
 
 
-public   class Hello{
+//public   class Hello{
     // int a=5;
-   public   static void main(String[] args) {  
+  // public   static void main(String[] args) {  
 
     // System.out.println(a);
     // byte a=5;
