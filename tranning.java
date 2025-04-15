@@ -5,19 +5,24 @@ class tranning{
         Scanner in = new Scanner(System.in);
         System.out.println("enter a first num");
            int a = in.nextInt();
-           //System.out.println("enter a second num");
-           //int b = in.nextInt();
+    
 
 
            switch(a){
              case 1:
                 System.out.println("one");
                 break;
+                
             case 2:
                 System.out.println("two");
                 break;
-                
-        
+        case 3:
+                System.out.println("three");
+                break;
+
+         case 4:
+                System.out.println("four");
+                break;
            }
 
 
