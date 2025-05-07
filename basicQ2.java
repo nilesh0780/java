@@ -65,8 +65,6 @@ public class basicQ2 {
         Scanner sc = new Scanner(System.in); // i/p ke liye use
       
       
-
-   
         
 
     
