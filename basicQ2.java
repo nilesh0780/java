@@ -8,14 +8,20 @@
     //     System.out.println( "remainder : "+ (a%b));
 
 // Q2 swap two number using a third variable 
-        // int a = 20;
-        // int b = 10;
-        // int temp;
+       class basicQ2{
+        public static void main(String[] args) {
+            
+        
+        int a = 20;
+        int b = 10;
+        int temp;
 
-        // temp =a;
-        // a=b;
-        // b=temp;
-        // System.out.println( "a= "+ (a)+" b= "+b); 
+        temp =a;
+        a=b;
+        b=temp;
+        System.out.println( "a= "+ (a)+" b= "+b); 
+       }
+ }
 // Q3:swap two number without using third variable 
     // int a;
     //     int b;
@@ -59,15 +65,15 @@
     //     }  
 
  //  Q7: find the largest of three number      
-import java.util.*;   
-public class basicQ2 {
-    public static void main(String []args){
-        Scanner sc = new Scanner(System.in); // i/p ke liye use
+// import java.util.*;   
+// public class basicQ2 {
+//     public static void main(String []args){
+//         Scanner sc = new Scanner(System.in); // i/p ke liye use
       
       
         
 
     
-    }
-}
+//     }
+// }
    

@@ -2,19 +2,19 @@ class day3{
 
     public static void main( String[] args){
     
-        // int a=323;
-        // int original=a;
-        // int res=0;
-        // while(a>0){
-        //     int digit = a%10;
-        //     res =res*10+digit;
-        //     a=a/10;
-        // }
-        // if(original==res){
-        //     System.out.print("yes");
-        // }else{
-        //     System.out.print("no");
-        // }
+        int a=323;
+        int original=a;
+        int res=0;
+        while(a>0){
+            int digit = a%10;
+            res =res*10+digit;
+            a=a/10;
+        }
+        if(original==res){
+            System.out.print("yes");
+        }else{
+            System.out.print("no");
+        }
 
         // int a= 123;
         // int sum = 0;
@@ -22,6 +22,7 @@ class day3{
         //      sum =sum+a%10;
         //     a = a/10;
         // }
+
         // System.out.print(sum);
 
 

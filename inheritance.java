@@ -122,24 +122,46 @@
 
  // Question single level
  
- class Book{
-    void read(){
-        System.out.println("readingg");
-    }
- }
- class Novel extends Book{
-    void storyline(){
-        System.out.println("story");
-    }
+//  class Book{
+//     void read(){
+//         System.out.println("readingg");
+//     }
+//  }
+//  class Novel extends Book{
+//     void storyline(){
+//         System.out.println("story");
+//     }
      
- }
- class inheritance{
-    public static void main(String[] args) {
-        Novel obj= new Novel();
+//  }
+//  class inheritance{
+//     public static void main(String[] args) {
+//         Novel obj= new Novel();
 
-        obj.read();
-        obj.storyline();
+//         obj.read();
+//         obj.storyline();
+//     }
+//  }
+
+
+   // question multiple inehritance
+
+   class A{
+    void sum(){
+        System.out.println("mai hu kon A");
     }
- }
+   }
+   class B{
+    void sum(){
+        System.out.println("mai hu kon B");
+    }
+   }
+   class C extends A{
+    
+   }
 
-
+    class inehritance{
+    public static void main(String[] args) {
+        C obj= new C();
+        obj.sum();
+    }
+   }

@@ -1,27 +1,3 @@
-class Animal{
-    void eat(){
-        System.out.println("eatinggg");
-    }
-}
-
-class Dog extends Animal{
-    void bark(){
-        System.out.println("barkkk");                  //single level inheritance
-    }
-}
-
-
-
-class inheritance{
-  public static void main(String[] args) {
-      
-    Dog obj = new Dog();
-    obj.bark();
-    obj.eat();
-
-
-
-}
-}
-
-
+   1st: for(int j=1; j<=i; j++){
+           System.out.print("*");
+       }
